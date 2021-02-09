@@ -1,4 +1,4 @@
-# haplar
+# Haplar
 A pills reminder application
 
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg)
