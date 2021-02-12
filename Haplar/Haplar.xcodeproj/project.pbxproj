@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		161B78A125D322A0007E21B6 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78A025D322A0007E21B6 /* HaplarApp.swift */; };
-		161B78A325D322A0007E21B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78A225D322A0007E21B6 /* ContentView.swift */; };
-		161B78A525D322A3007E21B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161B78A425D322A3007E21B6 /* Assets.xcassets */; };
 		161B78A825D322A3007E21B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161B78A725D322A3007E21B6 /* Preview Assets.xcassets */; };
 		161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78B225D322A3007E21B6 /* HaplarTests.swift */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
+		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
+		1625C55725D724A100EE2CF3 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C55425D724A100EE2CF3 /* HaplarApp.swift */; };
+		1625C55825D724A100EE2CF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C55525D724A100EE2CF3 /* ContentView.swift */; };
+		1625C57225D7258C00EE2CF3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C57125D7258C00EE2CF3 /* HomeView.swift */; };
+		1625C57725D7259800EE2CF3 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C57625D7259800EE2CF3 /* AddDrugView.swift */; };
+		1625C57C25D725A100EE2CF3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C57B25D725A100EE2CF3 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +37,20 @@
 
 /* Begin PBXFileReference section */
 		161B789D25D322A0007E21B6 /* Haplar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haplar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		161B78A025D322A0007E21B6 /* HaplarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
-		161B78A225D322A0007E21B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		161B78A425D322A3007E21B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161B78A725D322A3007E21B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		161B78A925D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		161B78AE25D322A3007E21B6 /* HaplarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaplarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		161B78B225D322A3007E21B6 /* HaplarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaplarTests.swift; sourceTree = "<group>"; };
 		161B78B425D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		161B78B925D322A3007E21B6 /* HaplarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaplarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		161B78BD25D322A3007E21B6 /* HaplarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaplarUITests.swift; sourceTree = "<group>"; };
 		161B78BF25D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1625C55325D724A100EE2CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1625C55425D724A100EE2CF3 /* HaplarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
+		1625C55525D724A100EE2CF3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1625C56025D724C000EE2CF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1625C57125D7258C00EE2CF3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1625C57625D7259800EE2CF3 /* AddDrugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
+		1625C57B25D725A100EE2CF3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +101,8 @@
 		161B789F25D322A0007E21B6 /* Haplar */ = {
 			isa = PBXGroup;
 			children = (
-				161B78A025D322A0007E21B6 /* HaplarApp.swift */,
-				161B78A225D322A0007E21B6 /* ContentView.swift */,
-				161B78A425D322A3007E21B6 /* Assets.xcassets */,
-				161B78A925D322A3007E21B6 /* Info.plist */,
+				1625C55125D724A100EE2CF3 /* App */,
+				1625C55F25D724C000EE2CF3 /* Config */,
 				161B78A625D322A3007E21B6 /* Preview Content */,
 			);
 			path = Haplar;
@@ -128,6 +132,59 @@
 				161B78BF25D322A3007E21B6 /* Info.plist */,
 			);
 			path = HaplarUITests;
+			sourceTree = "<group>";
+		};
+		1625C55125D724A100EE2CF3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1625C55425D724A100EE2CF3 /* HaplarApp.swift */,
+				1625C55525D724A100EE2CF3 /* ContentView.swift */,
+				1625C55225D724A100EE2CF3 /* Features */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1625C55225D724A100EE2CF3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1625C56E25D7257F00EE2CF3 /* Home */,
+				1625C56F25D7257F00EE2CF3 /* AddDrug */,
+				1625C57025D7257F00EE2CF3 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1625C55F25D724C000EE2CF3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1625C55325D724A100EE2CF3 /* Assets.xcassets */,
+				1625C56025D724C000EE2CF3 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1625C56E25D7257F00EE2CF3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1625C57125D7258C00EE2CF3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1625C56F25D7257F00EE2CF3 /* AddDrug */ = {
+			isa = PBXGroup;
+			children = (
+				1625C57625D7259800EE2CF3 /* AddDrugView.swift */,
+			);
+			path = AddDrug;
+			sourceTree = "<group>";
+		};
+		1625C57025D7257F00EE2CF3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1625C57B25D725A100EE2CF3 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				161B78A825D322A3007E21B6 /* Preview Assets.xcassets in Resources */,
-				161B78A525D322A3007E21B6 /* Assets.xcassets in Resources */,
+				1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161B78A325D322A0007E21B6 /* ContentView.swift in Sources */,
-				161B78A125D322A0007E21B6 /* HaplarApp.swift in Sources */,
+				1625C57225D7258C00EE2CF3 /* HomeView.swift in Sources */,
+				1625C57C25D725A100EE2CF3 /* SettingsView.swift in Sources */,
+				1625C55725D724A100EE2CF3 /* HaplarApp.swift in Sources */,
+				1625C57725D7259800EE2CF3 /* AddDrugView.swift in Sources */,
+				1625C55825D724A100EE2CF3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,12 +481,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Haplar/Preview Content\"";
 				DEVELOPMENT_TEAM = QN66UQNDZR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Haplar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Haplar/Config/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadev.Haplar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -443,12 +504,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Haplar/Preview Content\"";
 				DEVELOPMENT_TEAM = QN66UQNDZR;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Haplar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Haplar/Config/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadev.Haplar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
