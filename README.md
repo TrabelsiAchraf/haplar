@@ -13,9 +13,11 @@ A pills reminder application
 ### Structure
 
    |-- Haplar.xcodeproj
+   
    |-- HaplarUITests
    |   |-- HaplarUITests.swift
    |   |-- Info.plist
+   
    |-- Haplar
    |   |-- Config
    |   |   |-- Assets.xcassets
