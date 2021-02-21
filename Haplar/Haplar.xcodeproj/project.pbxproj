@@ -11,12 +11,14 @@
 		161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78B225D322A3007E21B6 /* HaplarTests.swift */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
-		1625C55725D724A100EE2CF3 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C55425D724A100EE2CF3 /* HaplarApp.swift */; };
-		1625C55825D724A100EE2CF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C55525D724A100EE2CF3 /* ContentView.swift */; };
-		1625C57225D7258C00EE2CF3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C57125D7258C00EE2CF3 /* HomeView.swift */; };
-		1625C57725D7259800EE2CF3 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C57625D7259800EE2CF3 /* AddDrugView.swift */; };
-		1625C57C25D725A100EE2CF3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625C57B25D725A100EE2CF3 /* SettingsView.swift */; };
-		FDFB629A25E30195006FDDB7 /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB629925E30195006FDDB7 /* HLDayView.swift */; };
+		FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CA25E32119006FDDB7 /* SettingsView.swift */; };
+		FDFB62D725E32119006FDDB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CD25E32119006FDDB7 /* HomeView.swift */; };
+		FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */; };
+		FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62D325E32119006FDDB7 /* HaplarApp.swift */; };
+		FDFB62DA25E32119006FDDB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62D425E32119006FDDB7 /* ContentView.swift */; };
+		FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62E725E321C2006FDDB7 /* DateExtension.swift */; };
+		FDFB62EE25E321E5006FDDB7 /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62ED25E321E5006FDDB7 /* HLDayView.swift */; };
+		FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62F825E32233006FDDB7 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +48,15 @@
 		161B78BD25D322A3007E21B6 /* HaplarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaplarUITests.swift; sourceTree = "<group>"; };
 		161B78BF25D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1625C55325D724A100EE2CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1625C55425D724A100EE2CF3 /* HaplarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
-		1625C55525D724A100EE2CF3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1625C56025D724C000EE2CF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1625C57125D7258C00EE2CF3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		1625C57625D7259800EE2CF3 /* AddDrugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
-		1625C57B25D725A100EE2CF3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		FDFB629925E30195006FDDB7 /* HLDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
+		FDFB62CA25E32119006FDDB7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FDFB62CD25E32119006FDDB7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
+		FDFB62D325E32119006FDDB7 /* HaplarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
+		FDFB62D425E32119006FDDB7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDFB62E725E321C2006FDDB7 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		FDFB62ED25E321E5006FDDB7 /* HLDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
+		FDFB62F825E32233006FDDB7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,7 @@
 		161B789F25D322A0007E21B6 /* Haplar */ = {
 			isa = PBXGroup;
 			children = (
-				1625C55125D724A100EE2CF3 /* App */,
+				FDFB62C725E32119006FDDB7 /* Application */,
 				1625C55F25D724C000EE2CF3 /* Config */,
 				161B78A625D322A3007E21B6 /* Preview Content */,
 			);
@@ -136,26 +140,6 @@
 			path = HaplarUITests;
 			sourceTree = "<group>";
 		};
-		1625C55125D724A100EE2CF3 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				1625C55425D724A100EE2CF3 /* HaplarApp.swift */,
-				1625C55525D724A100EE2CF3 /* ContentView.swift */,
-				1625C55225D724A100EE2CF3 /* Features */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		1625C55225D724A100EE2CF3 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				1625C56E25D7257F00EE2CF3 /* Home */,
-				1625C56F25D7257F00EE2CF3 /* AddDrug */,
-				1625C57025D7257F00EE2CF3 /* Settings */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
 		1625C55F25D724C000EE2CF3 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,29 +149,83 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
-		1625C56E25D7257F00EE2CF3 /* Home */ = {
+		FDFB62C725E32119006FDDB7 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				1625C57125D7258C00EE2CF3 /* HomeView.swift */,
-				FDFB629925E30195006FDDB7 /* HLDayView.swift */,
+				FDFB62D225E32119006FDDB7 /* Main */,
+				FDFB62C825E32119006FDDB7 /* Features */,
+				FDFB62D025E32119006FDDB7 /* Common */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FDFB62C825E32119006FDDB7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FDFB62CB25E32119006FDDB7 /* Home */,
+				FDFB62C925E32119006FDDB7 /* Settings */,
+				FDFB62CE25E32119006FDDB7 /* AddDrug */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FDFB62C925E32119006FDDB7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FDFB62CA25E32119006FDDB7 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FDFB62CB25E32119006FDDB7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FDFB62CD25E32119006FDDB7 /* HomeView.swift */,
+				FDFB62EC25E321E5006FDDB7 /* Components */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		1625C56F25D7257F00EE2CF3 /* AddDrug */ = {
+		FDFB62CE25E32119006FDDB7 /* AddDrug */ = {
 			isa = PBXGroup;
 			children = (
-				1625C57625D7259800EE2CF3 /* AddDrugView.swift */,
+				FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */,
 			);
 			path = AddDrug;
 			sourceTree = "<group>";
 		};
-		1625C57025D7257F00EE2CF3 /* Settings */ = {
+		FDFB62D025E32119006FDDB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				1625C57B25D725A100EE2CF3 /* SettingsView.swift */,
+				FDFB62D125E32119006FDDB7 /* Extensions */,
 			);
-			path = Settings;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FDFB62D125E32119006FDDB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDFB62E725E321C2006FDDB7 /* DateExtension.swift */,
+				FDFB62F825E32233006FDDB7 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FDFB62D225E32119006FDDB7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FDFB62D325E32119006FDDB7 /* HaplarApp.swift */,
+				FDFB62D425E32119006FDDB7 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FDFB62EC25E321E5006FDDB7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FDFB62ED25E321E5006FDDB7 /* HLDayView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,12 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1625C57225D7258C00EE2CF3 /* HomeView.swift in Sources */,
-				FDFB629A25E30195006FDDB7 /* HLDayView.swift in Sources */,
-				1625C57C25D725A100EE2CF3 /* SettingsView.swift in Sources */,
-				1625C55725D724A100EE2CF3 /* HaplarApp.swift in Sources */,
-				1625C57725D7259800EE2CF3 /* AddDrugView.swift in Sources */,
-				1625C55825D724A100EE2CF3 /* ContentView.swift in Sources */,
+				FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */,
+				FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */,
+				FDFB62D725E32119006FDDB7 /* HomeView.swift in Sources */,
+				FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */,
+				FDFB62DA25E32119006FDDB7 /* ContentView.swift in Sources */,
+				FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */,
+				FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */,
+				FDFB62EE25E321E5006FDDB7 /* HLDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
