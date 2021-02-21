@@ -15,48 +15,91 @@ A pills reminder application
    |-- Haplar.xcodeproj
    
    |-- HaplarUITests
+   
    |   |-- HaplarUITests.swift
+   
    |   |-- Info.plist
    
    |-- Haplar
+   
    |   |-- Config
+   
    |   |   |-- Assets.xcassets
+   
    |   |   |   |-- AppIcon.appiconset
+   
    |   |   |   |   |-- Contents.json
+   
    |   |   |   |-- AccentColor.colorset
+   
    |   |   |   |   |-- Contents.json
+   
    |   |   |   |-- Colors
+   
    |   |   |   |   |-- HLOrange.colorset
+   
    |   |   |   |   |   |-- Contents.json
+   
    |   |   |   |   |-- HLBlue.colorset
+   
    |   |   |   |   |   |-- Contents.json
+   
    |   |   |   |   |-- HLPurple.colorset
+   
    |   |   |   |   |   |-- Contents.json
+   
    |   |   |   |   |-- HLPink.colorset
+   
    |   |   |   |   |   |-- Contents.json
+   
    |   |   |   |   |-- Contents.json
+   
    |   |   |   |-- Contents.json
+   
    |   |   |-- Info.plist
+   
    |   |-- Preview Content
+   
    |   |   |-- Preview Assets.xcassets
+   
    |   |   |   |-- Contents.json
+   
    |   |-- Application
+   
    |   |   |-- Features
+   
    |   |   |   |-- Settings
+   
    |   |   |   |   |-- SettingsView.swift
+   
    |   |   |   |-- Home
+   
    |   |   |   |   |-- HomeView.swift
+   
    |   |   |   |   |-- Components
+   
    |   |   |   |   |   |-- HLDayView.swift
+   
    |   |   |   |-- AddDrug
+   
    |   |   |   |   |-- AddDrugView.swift
+   
    |   |   |-- Common
+   
    |   |   |   |-- Extensions
+   
    |   |   |   |   |-- ColorExtension.swift
+   
    |   |   |   |   |-- DateExtension.swift
+   
    |   |   |-- Main
+   
    |   |   |   |-- HaplarApp.swift
+   
    |   |   |   |-- ContentView.swift
+   
    |-- HaplarTests
+   
    |   |-- HaplarTests.swift
+   
    |   |-- Info.plist
