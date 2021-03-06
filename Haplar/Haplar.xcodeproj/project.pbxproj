@@ -11,6 +11,7 @@
 		161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78B225D322A3007E21B6 /* HaplarTests.swift */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
+		FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB2E67E25F4039C0091C3A5 /* Localizable.strings */; };
 		FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CA25E32119006FDDB7 /* SettingsView.swift */; };
 		FDFB62D725E32119006FDDB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CD25E32119006FDDB7 /* HomeView.swift */; };
 		FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */; };
@@ -49,6 +50,7 @@
 		161B78BF25D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1625C55325D724A100EE2CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1625C56025D724C000EE2CF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB2E67E25F4039C0091C3A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FDFB62CA25E32119006FDDB7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FDFB62CD25E32119006FDDB7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				1625C55325D724A100EE2CF3 /* Assets.xcassets */,
 				1625C56025D724C000EE2CF3 /* Info.plist */,
+				FDB2E67E25F4039C0091C3A5 /* Localizable.strings */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				161B78A825D322A3007E21B6 /* Preview Assets.xcassets in Resources */,
+				FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */,
 				1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

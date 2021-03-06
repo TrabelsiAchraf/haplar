@@ -13,14 +13,17 @@ struct ContentView: View {
             HomeView()
                 .tabItem {
                     Image(systemName: "house.fill")
+                    Text("TABBAR_HOME")
                 }
             AddDrugView()
                 .tabItem {
                     Image(systemName: "plus.circle.fill")
+                    Text("TABBAR_ADD")
                 }
             SettingsView()
                 .tabItem {
                     Image(systemName: "gearshape.fill")
+                    Text("TABBAR_SETTINGS")
                 }
         }
     }

@@ -34,8 +34,10 @@ struct HLDayView_Previews: PreviewProvider {
     static var previews: some View {
         HLDayView(date: Date())
             .previewLayout(.sizeThatFits)
-                  HLDayView(date: Date())
+            .padding()
+        HLDayView(date: Date())
             .previewLayout(.sizeThatFits)
             .preferredColorScheme(.dark)
+            .padding()
     }
 }

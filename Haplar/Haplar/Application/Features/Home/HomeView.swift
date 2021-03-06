@@ -19,15 +19,21 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                ScrollView(.horizontal) {
-                    LazyHStack {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack {
                         ForEach(0...days.count, id: \.self) { day in
                             HLDayView(date: Date())
                         }
                     }
-                    .padding()
+                    .padding(.horizontal)
+                    .padding(.top, 25)
                 }
-                Circle()
+                Text("Today, 24 Dec")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.accentColor)
+                Spacer()
+                //                Circle()
             }
             .navigationBarItems(trailing:
                                     HStack {
@@ -38,9 +44,7 @@ struct HomeView: View {
                                                 .font(.largeTitle)
                                         }.foregroundColor(.hlPurple)
                                     })
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-            .edgesIgnoringSafeArea(.all)
-            .navigationBarTitle(Text("Your Medicines"))
+            .navigationBarTitle(Text("HOME_NAVBAR"))
         }
     }
 }

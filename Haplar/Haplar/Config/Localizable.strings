@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Haplar
+
+  Created by Achraf Trabelsi on 06/03/2021.
+  
+*/
+
+// MARK: - TabBar
+
+"TABBAR_HOME" = "Home";
+"TABBAR_ADD" = "Add";
+"TABBAR_SETTINGS" = "Settings";
+
+// MARK: - Home View
+
+"HOME_NAVBAR" = "Your Medicines";
+
+// MARK: - Add Medicines View
+
+
+// MARK: - Settings View
