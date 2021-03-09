@@ -27,7 +27,7 @@ struct HLDaysListView: View {
             }
             Text(selectedDate)
                 .font(.headline)
-                .fontWeight(.semibold)
+                .fontWeight(.bold)
                 .foregroundColor(.accentColor)
                 .padding(.top, 10)
         }
