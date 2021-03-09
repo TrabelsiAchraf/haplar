@@ -12,13 +12,16 @@
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
 		FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB2E67E25F4039C0091C3A5 /* Localizable.strings */; };
+		FDF3E54E25F7EBEA003FAFAC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */; };
+		FDF3E55A25F7EC2A003FAFAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E55725F7EC29003FAFAC /* HomeView.swift */; };
+		FDF3E55B25F7EC2A003FAFAC /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E55925F7EC29003FAFAC /* HLDayView.swift */; };
+		FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */; };
+		FDF76C1725F8021600B84394 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1625F8021600B84394 /* HLDaysListView.swift */; };
 		FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CA25E32119006FDDB7 /* SettingsView.swift */; };
-		FDFB62D725E32119006FDDB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CD25E32119006FDDB7 /* HomeView.swift */; };
 		FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */; };
 		FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62D325E32119006FDDB7 /* HaplarApp.swift */; };
 		FDFB62DA25E32119006FDDB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62D425E32119006FDDB7 /* ContentView.swift */; };
 		FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62E725E321C2006FDDB7 /* DateExtension.swift */; };
-		FDFB62EE25E321E5006FDDB7 /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62ED25E321E5006FDDB7 /* HLDayView.swift */; };
 		FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62F825E32233006FDDB7 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,13 +54,16 @@
 		1625C55325D724A100EE2CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1625C56025D724C000EE2CF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB2E67E25F4039C0091C3A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FDF3E55725F7EC29003FAFAC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FDF3E55925F7EC29003FAFAC /* HLDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
+		FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDayModel.swift; sourceTree = "<group>"; };
+		FDF76C1625F8021600B84394 /* HLDaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDaysListView.swift; sourceTree = "<group>"; };
 		FDFB62CA25E32119006FDDB7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		FDFB62CD25E32119006FDDB7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
 		FDFB62D325E32119006FDDB7 /* HaplarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
 		FDFB62D425E32119006FDDB7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDFB62E725E321C2006FDDB7 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		FDFB62ED25E321E5006FDDB7 /* HLDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
 		FDFB62F825E32233006FDDB7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +158,40 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
+		FDF3E54C25F7EBD5003FAFAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDF3E55625F7EC29003FAFAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3E55725F7EC29003FAFAC /* HomeView.swift */,
+				FDF3E55825F7EC29003FAFAC /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDF3E55825F7EC29003FAFAC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3E55925F7EC29003FAFAC /* HLDayView.swift */,
+				FDF76C1625F8021600B84394 /* HLDaysListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FDF76C1025F7F3EA00B84394 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FDFB62C725E32119006FDDB7 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,8 +223,9 @@
 		FDFB62CB25E32119006FDDB7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FDFB62CD25E32119006FDDB7 /* HomeView.swift */,
-				FDFB62EC25E321E5006FDDB7 /* Components */,
+				FDF76C1025F7F3EA00B84394 /* Model */,
+				FDF3E55625F7EC29003FAFAC /* Views */,
+				FDF3E54C25F7EBD5003FAFAC /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -221,14 +262,6 @@
 				FDFB62D425E32119006FDDB7 /* ContentView.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		FDFB62EC25E321E5006FDDB7 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				FDFB62ED25E321E5006FDDB7 /* HLDayView.swift */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,13 +395,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */,
+				FDF3E54E25F7EBEA003FAFAC /* HomeViewModel.swift in Sources */,
 				FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */,
-				FDFB62D725E32119006FDDB7 /* HomeView.swift in Sources */,
+				FDF3E55A25F7EC2A003FAFAC /* HomeView.swift in Sources */,
+				FDF76C1725F8021600B84394 /* HLDaysListView.swift in Sources */,
+				FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */,
 				FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */,
 				FDFB62DA25E32119006FDDB7 /* ContentView.swift in Sources */,
 				FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */,
 				FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */,
-				FDFB62EE25E321E5006FDDB7 /* HLDayView.swift in Sources */,
+				FDF3E55B25F7EC2A003FAFAC /* HLDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

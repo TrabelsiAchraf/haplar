@@ -29,4 +29,40 @@ extension Date {
         let formattedDate = format.string(from: self)
         return formattedDate
     }
+    
+    var dayFullFormat: String {
+        let format = DateFormatter()
+        format.doesRelativeDateFormatting = true
+        format.dateStyle = .long
+        let formattedDate = format.string(from: self)
+        return formattedDate
+    }
+    
+    static func getAllDaysOfTheCurrentWeek() -> [Date] {
+        var dates: [Date] = []
+        guard let dateInterval = Calendar.current.dateInterval(of: .weekOfYear, for: Date()) else {
+            return dates
+        }
+        Calendar
+            .current
+            .enumerateDates(
+                startingAfter: dateInterval.start,
+                matching: DateComponents(hour: 0),
+                matchingPolicy: .nextTime
+            ) { date, _, stop in
+                guard let date = date else {
+                    return
+                }
+                if date <= dateInterval.end {
+                dates.append(date)
+            } else {
+                stop = true
+            }
+        }
+        return dates
+    }
+    
+    static func compareDate(date1: Date, date2: Date) -> Bool {
+        Calendar.current.compare(date1, to: date2, toGranularity: .day) == .orderedSame
+    }
 }
