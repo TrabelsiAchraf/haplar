@@ -15,6 +15,9 @@
 // MARK: - Home View
 
 "HOME_NAVBAR" = "Your Medicines";
+"HOME_EMPTY_SCEDULE_ADD_BUTTON_TITLE" = "Add a Medicine";
+"HOME_EMPTY_SCEDULE_HEADER" = "Monitor your med scedule";
+"HOME_EMPTY_SCEDULE_INFO" = "View your daily schedule and mark your meds when taken";
 
 // MARK: - Add Medicines View
 

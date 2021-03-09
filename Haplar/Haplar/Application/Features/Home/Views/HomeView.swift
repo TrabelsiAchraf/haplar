@@ -11,26 +11,31 @@ struct HomeView: View {
     @ObservedObject var viewModel: HomeViewModel
     var body: some View {
         NavigationView {
-            VStack {
-                HLDaysListView(viewModel: viewModel)
-                Spacer()
-            }
-            .onAppear {
-                viewModel.retrieveWeekDays()
-            }
-            .navigationBarItems(
-                trailing:
-                    HStack {
-                        Button(action: {
-                            print("Hi !")
-                        }) {
-                            Image(systemName: "bell.badge.fill")
-                                .font(.largeTitle)
+            GeometryReader { geometry in
+                VStack(spacing: 0) {
+                    HLDaysListView(viewModel: viewModel)
+                        .frame(width: geometry.size.width, height: geometry.size.height * 0.3)
+                    EmptyMedicinesSceduleView()
+                    .frame(width: geometry.size.width, height: geometry.size.height * 0.8)
+                    .background(LinearGradient(gradient: Gradient(colors: [Color.hlGray1, Color.hlGray2]), startPoint: .bottomTrailing, endPoint: .topLeading))
+                }
+                .onAppear {
+                    viewModel.retrieveWeekDays()
+                }
+                .navigationBarItems(
+                    trailing:
+                        HStack {
+                            Button(action: {
+                                print("Hi !")
+                            }) {
+                                Image(systemName: "bell.badge.fill")
+                                    .font(.largeTitle)
+                            }
+                            .foregroundColor(.hlPurple)
                         }
-                        .foregroundColor(.hlPurple)
-                    }
-            )
-            .navigationBarTitle(Text("HOME_NAVBAR"))
+                )
+                .navigationBarTitle(Text("HOME_NAVBAR"))
+            }
         }
     }
 }

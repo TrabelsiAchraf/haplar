@@ -17,6 +17,7 @@
 		FDF3E55B25F7EC2A003FAFAC /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E55925F7EC29003FAFAC /* HLDayView.swift */; };
 		FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */; };
 		FDF76C1725F8021600B84394 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1625F8021600B84394 /* HLDaysListView.swift */; };
+		FDF76C1C25F8158600B84394 /* EmptyMedicinesSceduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1B25F8158600B84394 /* EmptyMedicinesSceduleView.swift */; };
 		FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CA25E32119006FDDB7 /* SettingsView.swift */; };
 		FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */; };
 		FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62D325E32119006FDDB7 /* HaplarApp.swift */; };
@@ -59,6 +60,7 @@
 		FDF3E55925F7EC29003FAFAC /* HLDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
 		FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDayModel.swift; sourceTree = "<group>"; };
 		FDF76C1625F8021600B84394 /* HLDaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDaysListView.swift; sourceTree = "<group>"; };
+		FDF76C1B25F8158600B84394 /* EmptyMedicinesSceduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMedicinesSceduleView.swift; sourceTree = "<group>"; };
 		FDFB62CA25E32119006FDDB7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
 		FDFB62D325E32119006FDDB7 /* HaplarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				FDF3E55725F7EC29003FAFAC /* HomeView.swift */,
 				FDF3E55825F7EC29003FAFAC /* Components */,
+				FDF76C1B25F8158600B84394 /* EmptyMedicinesSceduleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			files = (
 				FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */,
 				FDF3E54E25F7EBEA003FAFAC /* HomeViewModel.swift in Sources */,
+				FDF76C1C25F8158600B84394 /* EmptyMedicinesSceduleView.swift in Sources */,
 				FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */,
 				FDF3E55A25F7EC2A003FAFAC /* HomeView.swift in Sources */,
 				FDF76C1725F8021600B84394 /* HLDaysListView.swift in Sources */,
