@@ -9,7 +9,7 @@ import SwiftUI
 import Combine
 import Foundation
 
-class HomeViewModel: ObservableObject {
+final class HomeViewModel: ObservableObject {
     
     @Published private(set) var days: [HLDay] = []
     

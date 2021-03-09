@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class HLDay: Identifiable {
+final class HLDay: Identifiable {
     var id: UUID
     let date: Date
     var isSelected: Bool
