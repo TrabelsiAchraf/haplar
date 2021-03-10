@@ -43,7 +43,7 @@ struct EmptyMedicinesScheduleView: View {
     }
 }
 
-struct EmptyMedicinesSceduleView_Previews: PreviewProvider {
+struct EmptyMedicinesScheduleView_Previews: PreviewProvider {
     static var previews: some View {
         EmptyMedicinesScheduleView()
             .previewLayout(.sizeThatFits)
