@@ -16,7 +16,7 @@ struct HLDayView: View {
             Text(date.dayLabel)
                 .font(.caption)
                 .frame(width: 30, height: 10, alignment: .center)
-                .foregroundColor(isSelected ? .white : .black)
+                .foregroundColor(isSelected ? .white : .hlDayTitle)
                 .padding()
             Text(date.dayNumber)
                 .font(.caption)
@@ -27,7 +27,7 @@ struct HLDayView: View {
         }
         .frame(width: 15, height: 65, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .padding()
-        .background(isSelected ? Color.hlPurple : Color.white)
+        .background(isSelected ? Color.hlPurple : Color.hlDayBackground)
         .cornerRadius(30)
     }
 }
