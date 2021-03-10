@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EmptyMedicinesSceduleView: View {
+struct EmptyMedicinesScheduleView: View {
     let haptics = UIImpactFeedbackGenerator(style: .medium)
     var body: some View {
         VStack {
@@ -45,10 +45,10 @@ struct EmptyMedicinesSceduleView: View {
 
 struct EmptyMedicinesSceduleView_Previews: PreviewProvider {
     static var previews: some View {
-        EmptyMedicinesSceduleView()
+        EmptyMedicinesScheduleView()
             .previewLayout(.sizeThatFits)
             .padding()
-        EmptyMedicinesSceduleView()
+        EmptyMedicinesScheduleView()
             .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
             .padding()
