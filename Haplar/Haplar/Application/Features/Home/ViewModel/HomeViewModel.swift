@@ -12,6 +12,8 @@ import Foundation
 final class HomeViewModel: ObservableObject {
     
     @Published private(set) var days: [HLDay] = []
+    @Published private(set) var isMedicineInSchedule = true
+    
     
     convenience init(forPreview: Bool) {
         self.init()

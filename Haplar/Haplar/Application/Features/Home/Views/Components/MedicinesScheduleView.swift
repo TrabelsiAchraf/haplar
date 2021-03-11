@@ -13,7 +13,7 @@ struct MedicinesScheduleView: View {
             Image("icon_pills")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 100, height: 100)
+                .frame(width: 80, height: 80)
             VStack(alignment: .leading, spacing: 15) {
                 Text("Arnabite")
                     .font(.title)

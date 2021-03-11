@@ -15,9 +15,15 @@ struct HomeView: View {
                 VStack(spacing: 0) {
                     HLDaysListView(viewModel: viewModel)
                         .frame(width: geometry.size.width, height: geometry.size.height * 0.3)
-                    EmptyMedicinesScheduleView()
-                    .frame(width: geometry.size.width, height: geometry.size.height * 0.8)
-                    .background(LinearGradient(gradient: Gradient(colors: [Color.hlGray1, Color.hlGray2]), startPoint: .bottomTrailing, endPoint: .topLeading))
+                    if viewModel.isMedicineInSchedule {
+                        List(0..<10) { item in
+                            MedicinesScheduleView()
+                        }
+                    } else {
+                        EmptyMedicinesScheduleView()
+                            .frame(width: geometry.size.width, height: geometry.size.height * 0.8)
+                            .background(LinearGradient(gradient: Gradient(colors: [Color.hlGray1, Color.hlGray2]), startPoint: .bottomTrailing, endPoint: .topLeading))
+                    }
                 }
                 .onAppear {
                     viewModel.retrieveWeekDays()
