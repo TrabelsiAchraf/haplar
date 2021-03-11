@@ -13,23 +13,34 @@ struct MedicinesScheduleView: View {
             Image("icon_pills")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                .padding()
-            VStack(alignment: .leading) {
+                .frame(width: 100, height: 100)
+            VStack(alignment: .leading, spacing: 15) {
                 Text("Arnabite")
-                    .font(.title2)
+                    .font(.title)
                     .fontWeight(.bold)
-                    .padding(.bottom)
-                HStack {
-                    Text("Next:")
+                HStack() {
+                    Text("Next :")
                         .font(.body)
                         .fontWeight(.bold)
                     Text("19:30h")
                         .font(.body)
                         .fontWeight(.medium)
                 }
+                VStack(alignment: .leading) {
+                    HStack() {
+                        Text("Left :")
+                            .font(.body)
+                            .fontWeight(.bold)
+                        Text("15/20 units")
+                            .font(.body)
+                            .fontWeight(.medium)
+                        Capsule(style: .circular)
+                            .frame(width: 50, height: 10)
+                            .foregroundColor(.red)
+                    }
+                }
             }
-            .padding()
+            .padding(.horizontal)
         }
     }
 }
