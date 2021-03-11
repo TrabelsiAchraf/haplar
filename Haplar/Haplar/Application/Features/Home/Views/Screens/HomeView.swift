@@ -15,7 +15,7 @@ struct HomeView: View {
                 VStack(spacing: 0) {
                     HLDaysListView(viewModel: viewModel)
                         .frame(width: geometry.size.width, height: geometry.size.height * 0.3)
-                    EmptyMedicinesSceduleView()
+                    EmptyMedicinesScheduleView()
                     .frame(width: geometry.size.width, height: geometry.size.height * 0.8)
                     .background(LinearGradient(gradient: Gradient(colors: [Color.hlGray1, Color.hlGray2]), startPoint: .bottomTrailing, endPoint: .topLeading))
                 }
