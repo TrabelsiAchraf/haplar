@@ -11,14 +11,15 @@
 		161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78B225D322A3007E21B6 /* HaplarTests.swift */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
-		16C9DB1725F84D4700FA554F /* MedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C9DB1625F84D4700FA554F /* MedicinesScheduleView.swift */; };
+		FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF425FA928300372C97 /* MedicinesScheduleView.swift */; };
+		FD632AFA25FA928300372C97 /* EmptyMedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF525FA928300372C97 /* EmptyMedicinesScheduleView.swift */; };
+		FD632AFB25FA928300372C97 /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF625FA928300372C97 /* HLDayView.swift */; };
+		FD632AFC25FA928300372C97 /* EmptyMedicinesSceduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */; };
+		FD632AFD25FA928300372C97 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF825FA928300372C97 /* HLDaysListView.swift */; };
+		FD632B0525FA928D00372C97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632B0425FA928D00372C97 /* HomeView.swift */; };
 		FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB2E67E25F4039C0091C3A5 /* Localizable.strings */; };
 		FDF3E54E25F7EBEA003FAFAC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */; };
-		FDF3E55A25F7EC2A003FAFAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E55725F7EC29003FAFAC /* HomeView.swift */; };
-		FDF3E55B25F7EC2A003FAFAC /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E55925F7EC29003FAFAC /* HLDayView.swift */; };
 		FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */; };
-		FDF76C1725F8021600B84394 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1625F8021600B84394 /* HLDaysListView.swift */; };
-		FDF76C1C25F8158600B84394 /* EmptyMedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1B25F8158600B84394 /* EmptyMedicinesScheduleView.swift */; };
 		FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CA25E32119006FDDB7 /* SettingsView.swift */; };
 		FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */; };
 		FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFB62D325E32119006FDDB7 /* HaplarApp.swift */; };
@@ -55,14 +56,15 @@
 		161B78BF25D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1625C55325D724A100EE2CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1625C56025D724C000EE2CF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16C9DB1625F84D4700FA554F /* MedicinesScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesScheduleView.swift; sourceTree = "<group>"; };
+		FD632AF425FA928300372C97 /* MedicinesScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicinesScheduleView.swift; sourceTree = "<group>"; };
+		FD632AF525FA928300372C97 /* EmptyMedicinesScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyMedicinesScheduleView.swift; sourceTree = "<group>"; };
+		FD632AF625FA928300372C97 /* HLDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
+		FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyMedicinesSceduleView.swift; sourceTree = "<group>"; };
+		FD632AF825FA928300372C97 /* HLDaysListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDaysListView.swift; sourceTree = "<group>"; };
+		FD632B0425FA928D00372C97 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FDB2E67E25F4039C0091C3A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		FDF3E55725F7EC29003FAFAC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		FDF3E55925F7EC29003FAFAC /* HLDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDayView.swift; sourceTree = "<group>"; };
 		FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDayModel.swift; sourceTree = "<group>"; };
-		FDF76C1625F8021600B84394 /* HLDaysListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDaysListView.swift; sourceTree = "<group>"; };
-		FDF76C1B25F8158600B84394 /* EmptyMedicinesScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMedicinesScheduleView.swift; sourceTree = "<group>"; };
 		FDFB62CA25E32119006FDDB7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FDFB62CF25E32119006FDDB7 /* AddDrugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
 		FDFB62D325E32119006FDDB7 /* HaplarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaplarApp.swift; sourceTree = "<group>"; };
@@ -165,9 +167,21 @@
 		FD632AE925FA910700372C97 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				FDF3E55725F7EC29003FAFAC /* HomeView.swift */,
+				FD632B0425FA928D00372C97 /* HomeView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		FD632AF325FA928300372C97 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FD632AF425FA928300372C97 /* MedicinesScheduleView.swift */,
+				FD632AF525FA928300372C97 /* EmptyMedicinesScheduleView.swift */,
+				FD632AF625FA928300372C97 /* HLDayView.swift */,
+				FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */,
+				FD632AF825FA928300372C97 /* HLDaysListView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		FDF3E54C25F7EBD5003FAFAC /* ViewModel */ = {
@@ -182,22 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				FD632AE925FA910700372C97 /* Screens */,
-				FDF3E55825F7EC29003FAFAC /* Components */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		FDF3E55825F7EC29003FAFAC /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				FDF3E55925F7EC29003FAFAC /* HLDayView.swift */,
-				FDF76C1625F8021600B84394 /* HLDaysListView.swift */,
-				FDF76C1B25F8158600B84394 /* EmptyMedicinesSceduleView.swift */,
-				FDF3E55725F7EC29003FAFAC /* HomeView.swift */,
-				FDF3E55925F7EC29003FAFAC /* HLDayView.swift */,
-				FDF76C1625F8021600B84394 /* HLDaysListView.swift */,
-				FDF76C1B25F8158600B84394 /* EmptyMedicinesScheduleView.swift */,
-				16C9DB1625F84D4700FA554F /* MedicinesScheduleView.swift */,
+				FD632AF325FA928300372C97 /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -413,18 +412,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFB62D925E32119006FDDB7 /* HaplarApp.swift in Sources */,
+				FD632B0525FA928D00372C97 /* HomeView.swift in Sources */,
 				FDF3E54E25F7EBEA003FAFAC /* HomeViewModel.swift in Sources */,
-				FDF76C1C25F8158600B84394 /* EmptyMedicinesScheduleView.swift in Sources */,
-				16C9DB1725F84D4700FA554F /* MedicinesScheduleView.swift in Sources */,
+				FD632AFC25FA928300372C97 /* EmptyMedicinesSceduleView.swift in Sources */,
+				FD632AFD25FA928300372C97 /* HLDaysListView.swift in Sources */,
 				FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */,
-				FDF3E55A25F7EC2A003FAFAC /* HomeView.swift in Sources */,
-				FDF76C1725F8021600B84394 /* HLDaysListView.swift in Sources */,
 				FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */,
+				FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */,
 				FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */,
+				FD632AFA25FA928300372C97 /* EmptyMedicinesScheduleView.swift in Sources */,
 				FDFB62DA25E32119006FDDB7 /* ContentView.swift in Sources */,
 				FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */,
 				FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */,
-				FDF3E55B25F7EC2A003FAFAC /* HLDayView.swift in Sources */,
+				FD632AFB25FA928300372C97 /* HLDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
