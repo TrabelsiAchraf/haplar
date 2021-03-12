@@ -17,6 +17,8 @@
 		FD632AFC25FA928300372C97 /* EmptyMedicinesSceduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */; };
 		FD632AFD25FA928300372C97 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF825FA928300372C97 /* HLDaysListView.swift */; };
 		FD632B0525FA928D00372C97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632B0425FA928D00372C97 /* HomeView.swift */; };
+		FDA7AEFA25FBBB69007B7B7E /* HomeShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */; };
+		FDA7AF0225FBBD4F007B7B7E /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */; };
 		FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB2E67E25F4039C0091C3A5 /* Localizable.strings */; };
 		FDF3E54E25F7EBEA003FAFAC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */; };
 		FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */; };
@@ -62,6 +64,8 @@
 		FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyMedicinesSceduleView.swift; sourceTree = "<group>"; };
 		FD632AF825FA928300372C97 /* HLDaysListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDaysListView.swift; sourceTree = "<group>"; };
 		FD632B0425FA928D00372C97 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeShimmerView.swift; sourceTree = "<group>"; };
+		FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		FDB2E67E25F4039C0091C3A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FDF3E54D25F7EBEA003FAFAC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLDayModel.swift; sourceTree = "<group>"; };
@@ -180,8 +184,17 @@
 				FD632AF625FA928300372C97 /* HLDayView.swift */,
 				FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */,
 				FD632AF825FA928300372C97 /* HLDaysListView.swift */,
+				FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		FDA7AEF825FBBB44007B7B7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FDF3E54C25F7EBD5003FAFAC /* ViewModel */ = {
@@ -258,6 +271,7 @@
 		FDFB62D025E32119006FDDB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FDA7AEF825FBBB44007B7B7E /* Views */,
 				FDFB62D125E32119006FDDB7 /* Extensions */,
 			);
 			path = Common;
@@ -420,8 +434,10 @@
 				FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */,
 				FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */,
 				FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */,
+				FDA7AEFA25FBBB69007B7B7E /* HomeShimmerView.swift in Sources */,
 				FD632AFA25FA928300372C97 /* EmptyMedicinesScheduleView.swift in Sources */,
 				FDFB62DA25E32119006FDDB7 /* ContentView.swift in Sources */,
+				FDA7AF0225FBBD4F007B7B7E /* ShimmerView.swift in Sources */,
 				FDFB62D525E32119006FDDB7 /* SettingsView.swift in Sources */,
 				FDFB62D825E32119006FDDB7 /* AddDrugView.swift in Sources */,
 				FD632AFB25FA928300372C97 /* HLDayView.swift in Sources */,
