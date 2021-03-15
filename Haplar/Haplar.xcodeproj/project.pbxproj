@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		161B78A825D322A3007E21B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161B78A725D322A3007E21B6 /* Preview Assets.xcassets */; };
-		161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78B225D322A3007E21B6 /* HaplarTests.swift */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
 		FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF425FA928300372C97 /* MedicinesScheduleView.swift */; };
@@ -17,6 +16,8 @@
 		FD632AFC25FA928300372C97 /* EmptyMedicinesSceduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */; };
 		FD632AFD25FA928300372C97 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF825FA928300372C97 /* HLDaysListView.swift */; };
 		FD632B0525FA928D00372C97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632B0425FA928D00372C97 /* HomeView.swift */; };
+		FD96F63225FFDC7F003E8780 /* MedicineShceduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96F63125FFDC7F003E8780 /* MedicineShceduleModel.swift */; };
+		FD96F63D25FFDDB5003E8780 /* MedicineShceduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96F63C25FFDDB5003E8780 /* MedicineShceduleTests.swift */; };
 		FDA7AEFA25FBBB69007B7B7E /* HomeShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */; };
 		FDA7AF0225FBBD4F007B7B7E /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */; };
 		FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB2E67E25F4039C0091C3A5 /* Localizable.strings */; };
@@ -51,7 +52,6 @@
 		161B789D25D322A0007E21B6 /* Haplar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haplar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161B78A725D322A3007E21B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		161B78AE25D322A3007E21B6 /* HaplarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaplarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		161B78B225D322A3007E21B6 /* HaplarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaplarTests.swift; sourceTree = "<group>"; };
 		161B78B425D322A3007E21B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		161B78B925D322A3007E21B6 /* HaplarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaplarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		161B78BD25D322A3007E21B6 /* HaplarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaplarUITests.swift; sourceTree = "<group>"; };
@@ -64,6 +64,9 @@
 		FD632AF725FA928300372C97 /* EmptyMedicinesSceduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyMedicinesSceduleView.swift; sourceTree = "<group>"; };
 		FD632AF825FA928300372C97 /* HLDaysListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLDaysListView.swift; sourceTree = "<group>"; };
 		FD632B0425FA928D00372C97 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FD96F63125FFDC7F003E8780 /* MedicineShceduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineShceduleModel.swift; sourceTree = "<group>"; };
+		FD96F63B25FFDDB5003E8780 /* HaplarTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HaplarTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD96F63C25FFDDB5003E8780 /* MedicineShceduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineShceduleTests.swift; sourceTree = "<group>"; };
 		FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeShimmerView.swift; sourceTree = "<group>"; };
 		FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		FDB2E67E25F4039C0091C3A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -143,7 +146,7 @@
 		161B78B125D322A3007E21B6 /* HaplarTests */ = {
 			isa = PBXGroup;
 			children = (
-				161B78B225D322A3007E21B6 /* HaplarTests.swift */,
+				FD96F63625FFDCC0003E8780 /* Home */,
 				161B78B425D322A3007E21B6 /* Info.plist */,
 			);
 			path = HaplarTests;
@@ -189,6 +192,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		FD96F63625FFDCC0003E8780 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FD96F63725FFDCD2003E8780 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FD96F63725FFDCD2003E8780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD96F63C25FFDDB5003E8780 /* MedicineShceduleTests.swift */,
+				FD96F63B25FFDDB5003E8780 /* HaplarTests-Bridging-Header.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FDA7AEF825FBBB44007B7B7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				FDF76C1125F7F3FA00B84394 /* HLDayModel.swift */,
+				FD96F63125FFDC7F003E8780 /* MedicineShceduleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -365,6 +386,7 @@
 					};
 					161B78AD25D322A3007E21B6 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 161B789C25D322A0007E21B6;
 					};
 					161B78B825D322A3007E21B6 = {
@@ -433,6 +455,7 @@
 				FDFB62E825E321C2006FDDB7 /* DateExtension.swift in Sources */,
 				FDF76C1225F7F3FA00B84394 /* HLDayModel.swift in Sources */,
 				FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */,
+				FD96F63225FFDC7F003E8780 /* MedicineShceduleModel.swift in Sources */,
 				FDFB62F925E32233006FDDB7 /* ColorExtension.swift in Sources */,
 				FDA7AEFA25FBBB69007B7B7E /* HomeShimmerView.swift in Sources */,
 				FD632AFA25FA928300372C97 /* EmptyMedicinesScheduleView.swift in Sources */,
@@ -448,7 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */,
+				FD96F63D25FFDDB5003E8780 /* MedicineShceduleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +666,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QN66UQNDZR;
 				INFOPLIST_FILE = HaplarTests/Info.plist;
@@ -654,6 +678,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadev.HaplarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HaplarTests/Home/Model/HaplarTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haplar.app/Haplar";
@@ -665,6 +691,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QN66UQNDZR;
 				INFOPLIST_FILE = HaplarTests/Info.plist;
@@ -676,6 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadev.HaplarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HaplarTests/Home/Model/HaplarTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haplar.app/Haplar";
