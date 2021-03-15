@@ -34,11 +34,11 @@ final class HomeViewModel: ObservableObject {
         let selectedDayIndex = days.firstIndex { $0.date == day }
         guard let index = selectedDayIndex else { return }
         days = days.map { day in
-            let mutableDay = day
+            var mutableDay = day
             mutableDay.isSelected = false
             return mutableDay
         }
-        let selectedDay = days[index]
+        var selectedDay = days[index]
         selectedDay.isSelected = true
         days[index] = selectedDay
     }
