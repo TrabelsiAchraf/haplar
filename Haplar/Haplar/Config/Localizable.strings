@@ -18,6 +18,8 @@
 "HOME_EMPTY_SCEDULE_ADD_BUTTON_TITLE" = "Add a Medicine";
 "HOME_EMPTY_SCEDULE_HEADER" = "Monitor your med scedule";
 "HOME_EMPTY_SCEDULE_INFO" = "View your daily schedule and mark your meds when taken";
+"HOME_MEDICINE_SHCEDULE_NEXT" = "Next : ";
+"HOME_MEDICINE_SHCEDULE_LEFT" = "Left : ";
 
 // MARK: - Add Medicines View
 

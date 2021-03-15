@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct MedicineShcedule {
+struct MedicineShcedule: Identifiable {
+    var id: UUID
     let icon: Image
     let name: String
     let quanity: Quanity

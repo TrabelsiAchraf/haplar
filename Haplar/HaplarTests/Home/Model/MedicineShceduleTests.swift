@@ -13,7 +13,7 @@ class MedicineShceduleTests: XCTestCase {
     
     func test_thatfails() {
         let quantity = MedicineShcedule.Quanity(total: 40, left: 20)
-        let sut = MedicineShcedule(icon: Image("test"), name: "Arnabite", quanity: quantity)
+        let sut = MedicineShcedule(id: UUID(), icon: Image("test"), name: "Arnabite", quanity: quantity)
         XCTAssertEqual(sut.leftUnit, "20/40 units", "left unit message should respect the format: 'left/total units'")
     }
 }
