@@ -18,13 +18,14 @@ struct MedicineShcedule: Identifiable {
     var leftUnitStatus: StockStatus {
         let minConfortableInterval = quanity.total * 70 / 100
         let minNormalInterval = quanity.total * 30 / 100
-        
         switch quanity.left {
+        case let value where value < 0:
+            return .problem
         case let value where value > minNormalInterval && value < minConfortableInterval:
             return .normal
         case let value where value <= minNormalInterval:
             return .risk
-        case let value where value >= minConfortableInterval:
+        case let value where value >= minConfortableInterval && value <= quanity.total:
             return .confortable
         default:
             return .problem

@@ -46,4 +46,16 @@ class MedicineShceduleTests: XCTestCase {
         XCTAssertEqual(sut.leftUnitStatus, .risk)
         XCTAssertEqual(sut2.leftUnitStatus, .risk)
     }
+    
+    func test_ifLeftQuantityIsBiggerThanTotalQuantity_gaugeStatusShouldBeFailed() {
+        let quantity = MedicineShcedule.Quanity(total: 40, left: 42)
+        let sut = MedicineShcedule(id: UUID(), icon: Image("test"), name: "Arnabite", quanity: quantity)
+        XCTAssertEqual(sut.leftUnitStatus, .problem)
+    }
+    
+    func test_ifLeftQuantityIsLessThanZero_gaugeStatusShouldBeFailed() {
+        let quantity = MedicineShcedule.Quanity(total: 40, left: -10)
+        let sut = MedicineShcedule(id: UUID(), icon: Image("test"), name: "Arnabite", quanity: quantity)
+        XCTAssertEqual(sut.leftUnitStatus, .problem)
+    }
 }
