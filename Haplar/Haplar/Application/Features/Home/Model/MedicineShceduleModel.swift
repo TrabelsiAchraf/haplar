@@ -16,15 +16,16 @@ struct MedicineShcedule: Identifiable {
         "\(quanity.left)/\(quanity.total) units"
     }
     var leftUnitStatus: StockStatus {
-        let half = quanity.total * 50 / 100
-        let minConfortable = quanity.total * 70 / 100
-        let third = quanity.total * 30 / 100
-        if quanity.left >= half && quanity.left <= minConfortable {
+        let minConfortableInterval = quanity.total * 70 / 100
+        let minNormalInterval = quanity.total * 30 / 100
+        if quanity.left > minNormalInterval && quanity.left < minConfortableInterval {
             return .normal
-        } else if quanity.left <= third {
+        } else if quanity.left <= minNormalInterval {
             return .risk
+        } else if quanity.left >= minConfortableInterval {
+            return .confortable
         } else {
-            return .comfortable
+            return .problem
         }
     }
     
@@ -34,6 +35,6 @@ struct MedicineShcedule: Identifiable {
     }
     
     enum StockStatus {
-        case risk, normal, comfortable
+        case risk, normal, confortable, problem
     }
 }

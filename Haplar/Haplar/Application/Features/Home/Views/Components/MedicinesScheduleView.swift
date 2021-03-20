@@ -35,6 +35,7 @@ struct MedicinesScheduleView: View {
                         Text(medicinesSchedule.leftUnit)
                             .font(.body)
                             .fontWeight(.medium)
+                            .fixedSize()
                         Capsule(style: .circular)
                             .frame(width: 50, height: 10)
                             .foregroundColor(.red)
