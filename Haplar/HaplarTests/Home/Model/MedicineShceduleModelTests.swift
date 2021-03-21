@@ -9,7 +9,7 @@ import XCTest
 import SwiftUI
 @testable import Haplar
 
-class MedicineShceduleTests: XCTestCase {
+class MedicineShceduleModelTests: XCTestCase {
     
     func test_leftUnit_shouldRespectLeftByTotalUnitsFormat() {
         let quantity = MedicineShcedule.Quanity(total: 40, left: 20)

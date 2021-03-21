@@ -17,7 +17,7 @@
 		FD632AFD25FA928300372C97 /* HLDaysListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF825FA928300372C97 /* HLDaysListView.swift */; };
 		FD632B0525FA928D00372C97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632B0425FA928D00372C97 /* HomeView.swift */; };
 		FD96F63225FFDC7F003E8780 /* MedicineShceduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96F63125FFDC7F003E8780 /* MedicineShceduleModel.swift */; };
-		FD96F63D25FFDDB5003E8780 /* MedicineShceduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96F63C25FFDDB5003E8780 /* MedicineShceduleTests.swift */; };
+		FD96F63D25FFDDB5003E8780 /* MedicineShceduleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96F63C25FFDDB5003E8780 /* MedicineShceduleModelTests.swift */; };
 		FDA7AEFA25FBBB69007B7B7E /* HomeShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */; };
 		FDA7AF0225FBBD4F007B7B7E /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */; };
 		FDB2E67F25F4039C0091C3A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB2E67E25F4039C0091C3A5 /* Localizable.strings */; };
@@ -66,7 +66,7 @@
 		FD632B0425FA928D00372C97 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FD96F63125FFDC7F003E8780 /* MedicineShceduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineShceduleModel.swift; sourceTree = "<group>"; };
 		FD96F63B25FFDDB5003E8780 /* HaplarTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HaplarTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		FD96F63C25FFDDB5003E8780 /* MedicineShceduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineShceduleTests.swift; sourceTree = "<group>"; };
+		FD96F63C25FFDDB5003E8780 /* MedicineShceduleModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineShceduleModelTests.swift; sourceTree = "<group>"; };
 		FDA7AEF925FBBB69007B7B7E /* HomeShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeShimmerView.swift; sourceTree = "<group>"; };
 		FDA7AF0125FBBD4F007B7B7E /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		FDB2E67E25F4039C0091C3A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		FD96F63725FFDCD2003E8780 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FD96F63C25FFDDB5003E8780 /* MedicineShceduleTests.swift */,
+				FD96F63C25FFDDB5003E8780 /* MedicineShceduleModelTests.swift */,
 				FD96F63B25FFDDB5003E8780 /* HaplarTests-Bridging-Header.h */,
 			);
 			path = Model;
@@ -471,7 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD96F63D25FFDDB5003E8780 /* MedicineShceduleTests.swift in Sources */,
+				FD96F63D25FFDDB5003E8780 /* MedicineShceduleModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
