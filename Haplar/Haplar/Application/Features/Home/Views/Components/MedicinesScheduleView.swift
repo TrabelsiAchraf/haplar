@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MedicinesScheduleView: View {
     let medicinesSchedule: MedicineShcedule
+    @State private var gaugeStatusColor: Color = .clear
     var body: some View {
         HStack {
             medicinesSchedule.icon
@@ -38,7 +39,18 @@ struct MedicinesScheduleView: View {
                             .fixedSize()
                         Capsule(style: .circular)
                             .frame(width: 50, height: 10)
-                            .foregroundColor(.red)
+                            .foregroundColor(gaugeStatusColor)
+                    }.onAppear {
+                        switch medicinesSchedule.leftUnitStatus {
+                        case .confortable:
+                            gaugeStatusColor = .hlPink
+                        case .risk:
+                            gaugeStatusColor = .hlOrange
+                        case .normal:
+                            gaugeStatusColor = .hlPurple
+                        case .problem:
+                            gaugeStatusColor = Color.gray.opacity(0.4)
+                        }
                     }
                 }
             }
@@ -48,7 +60,7 @@ struct MedicinesScheduleView: View {
 }
 
 struct MedicinesScheduleView_Previews: PreviewProvider {
-    static let quantity = MedicineShcedule.Quanity(total: 20, left: 15)
+    static let quantity = MedicineShcedule.Quanity(total: 20, left: 10)
     static let medicinesSchedule = MedicineShcedule(
         id: UUID(),
         icon: Image("icon_pills"),

@@ -13,7 +13,8 @@ struct MedicineShcedule: Identifiable {
     let name: String
     let quanity: Quanity
     var leftUnit: String {
-        "\(quanity.left)/\(quanity.total) units"
+        guard quanity.left >= 0 && quanity.left <= quanity.total else { return "" }
+        return "\(quanity.left)/\(quanity.total) units"
     }
     var leftUnitStatus: StockStatus {
         let minConfortableInterval = quanity.total * 70 / 100
