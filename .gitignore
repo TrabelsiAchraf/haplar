@@ -3,6 +3,7 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
+Haplar/Haplar.xcodeproj/xcshareddata/
 xcuserdata/
 .DS_Store
 
