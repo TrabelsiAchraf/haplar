@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		161B78B325D322A3007E21B6 /* HaplarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78B225D322A3007E21B6 /* HaplarTests.swift */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
+		16A22B19263A28900013B5B7 /* UIHaplarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 16A22B18263A28900013B5B7 /* UIHaplarKit */; };
 		FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF425FA928300372C97 /* MedicinesScheduleView.swift */; };
 		FD632AFA25FA928300372C97 /* EmptyMedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF525FA928300372C97 /* EmptyMedicinesScheduleView.swift */; };
 		FD632AFB25FA928300372C97 /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF625FA928300372C97 /* HLDayView.swift */; };
@@ -82,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A22B19263A28900013B5B7 /* UIHaplarKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +313,9 @@
 			dependencies = (
 			);
 			name = Haplar;
+			packageProductDependencies = (
+				16A22B18263A28900013B5B7 /* UIHaplarKit */,
+			);
 			productName = Haplar;
 			productReference = 161B789D25D322A0007E21B6 /* Haplar.app */;
 			productType = "com.apple.product-type.application";
@@ -382,6 +387,9 @@
 				Base,
 			);
 			mainGroup = 161B789425D322A0007E21B6;
+			packageReferences = (
+				16A22B17263A28900013B5B7 /* XCRemoteSwiftPackageReference "UIHaplarKit" */,
+			);
 			productRefGroup = 161B789E25D322A0007E21B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -762,6 +770,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16A22B17263A28900013B5B7 /* XCRemoteSwiftPackageReference "UIHaplarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TrabelsiAchraf/UIHaplarKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16A22B18263A28900013B5B7 /* UIHaplarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16A22B17263A28900013B5B7 /* XCRemoteSwiftPackageReference "UIHaplarKit" */;
+			productName = UIHaplarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 161B789525D322A0007E21B6 /* Project object */;
 }

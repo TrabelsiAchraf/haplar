@@ -35,8 +35,8 @@ struct MedicinesScheduleView: View {
                             .font(.body)
                             .fontWeight(.medium)
                         Capsule(style: .circular)
+                            .stroke(Color.blue, lineWidth: 2)
                             .frame(width: 50, height: 10)
-                            .foregroundColor(.red)
                     }
                 }
             }
