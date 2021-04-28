@@ -16,8 +16,8 @@ struct HomeView: View {
                     HLDaysListView(viewModel: viewModel)
                         .frame(width: geometry.size.width, height: geometry.size.height * 0.3)
                     if viewModel.isMedicineInSchedule {
-                        List(0..<10) { item in
-                            MedicinesScheduleView()
+                        List(viewModel.medicineSchedules) { item in
+                            MedicinesScheduleView(medicinesSchedule: item)
                         }
                     } else {
                         EmptyMedicinesScheduleView()

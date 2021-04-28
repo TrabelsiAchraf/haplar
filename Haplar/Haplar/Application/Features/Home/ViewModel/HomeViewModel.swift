@@ -13,7 +13,12 @@ final class HomeViewModel: ObservableObject {
     
     @Published private(set) var days: [HLDay] = []
     @Published private(set) var isMedicineInSchedule = true
-    
+    @Published private(set) var medicineSchedules: [MedicineShcedule] = [
+        MedicineShcedule(id: UUID(), icon: Image("icon_pills"), name: "Arnabite", quanity: MedicineShcedule.Quanity(total: 50, left: 15)),
+        MedicineShcedule(id: UUID(), icon: Image("icon_pills"), name: "Marcdine", quanity: MedicineShcedule.Quanity(total: 30, left: 24)),
+        MedicineShcedule(id: UUID(), icon: Image("icon_pills"), name: "Jermidina", quanity: MedicineShcedule.Quanity(total: 35, left: 35)),
+        MedicineShcedule(id: UUID(), icon: Image("icon_pills"), name: "Aspejik", quanity: MedicineShcedule.Quanity(total: 35, left: 30))
+    ]
     
     convenience init(forPreview: Bool) {
         self.init()
@@ -34,11 +39,11 @@ final class HomeViewModel: ObservableObject {
         let selectedDayIndex = days.firstIndex { $0.date == day }
         guard let index = selectedDayIndex else { return }
         days = days.map { day in
-            let mutableDay = day
+            var mutableDay = day
             mutableDay.isSelected = false
             return mutableDay
         }
-        let selectedDay = days[index]
+        var selectedDay = days[index]
         selectedDay.isSelected = true
         days[index] = selectedDay
     }
