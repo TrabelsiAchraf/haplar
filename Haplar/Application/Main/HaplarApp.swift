@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import HaplarUI
 
 @main
 struct HaplarApp: App {
