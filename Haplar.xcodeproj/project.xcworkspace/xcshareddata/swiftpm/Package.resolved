@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "UIHaplarKitPackage",
+        "repositoryURL": "https://github.com/TrabelsiAchraf/UIHaplarKitPackage.git",
+        "state": {
+          "branch": "master",
+          "revision": "ed5d9b831891482499f31be8d01d018e5b34b18e",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

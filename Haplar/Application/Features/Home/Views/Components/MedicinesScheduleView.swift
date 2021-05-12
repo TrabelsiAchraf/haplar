@@ -40,8 +40,6 @@ struct MedicinesScheduleView: View {
                         Capsule(style: .circular)
                             .stroke(Color.blue, lineWidth: 2)
                             .frame(width: 50, height: 10)
-<<<<<<< HEAD
-=======
                             .foregroundColor(gaugeStatusColor)
                     }.onAppear {
                         switch medicinesSchedule.leftUnitStatus {
@@ -54,7 +52,6 @@ struct MedicinesScheduleView: View {
                         case .problem:
                             gaugeStatusColor = Color.gray.opacity(0.4)
                         }
->>>>>>> 96f50f4e4d2b25ef96344a99e80a938b79a9c780
                     }
                 }
             }
