@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		161B78A825D322A3007E21B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161B78A725D322A3007E21B6 /* Preview Assets.xcassets */; };
 		161B78BE25D322A3007E21B6 /* HaplarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B78BD25D322A3007E21B6 /* HaplarUITests.swift */; };
 		1625C55625D724A100EE2CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1625C55325D724A100EE2CF3 /* Assets.xcassets */; };
-		169DDF3B264B5D3E009F3D75 /* HaplarUI in Frameworks */ = {isa = PBXBuildFile; productRef = 169DDF3A264B5D3E009F3D75 /* HaplarUI */; };
 		FD632AF925FA928300372C97 /* MedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF425FA928300372C97 /* MedicinesScheduleView.swift */; };
 		FD632AFA25FA928300372C97 /* EmptyMedicinesScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF525FA928300372C97 /* EmptyMedicinesScheduleView.swift */; };
 		FD632AFB25FA928300372C97 /* HLDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD632AF625FA928300372C97 /* HLDayView.swift */; };
@@ -86,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				169DDF3B264B5D3E009F3D75 /* HaplarUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +333,6 @@
 			);
 			name = Haplar;
 			packageProductDependencies = (
-				169DDF3A264B5D3E009F3D75 /* HaplarUI */,
 			);
 			productName = Haplar;
 			productReference = 161B789D25D322A0007E21B6 /* Haplar.app */;
@@ -410,7 +407,6 @@
 			);
 			mainGroup = 161B789425D322A0007E21B6;
 			packageReferences = (
-				169DDF39264B5D3E009F3D75 /* XCRemoteSwiftPackageReference "HaplarUI" */,
 			);
 			productRefGroup = 161B789E25D322A0007E21B6 /* Products */;
 			projectDirPath = "";
@@ -558,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -613,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -633,7 +629,7 @@
 				DEVELOPMENT_TEAM = QN66UQNDZR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Haplar/Config/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -656,7 +652,7 @@
 				DEVELOPMENT_TEAM = QN66UQNDZR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Haplar/Config/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -798,25 +794,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		169DDF39264B5D3E009F3D75 /* XCRemoteSwiftPackageReference "HaplarUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/TrabelsiAchraf/HaplarUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		169DDF3A264B5D3E009F3D75 /* HaplarUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 169DDF39264B5D3E009F3D75 /* XCRemoteSwiftPackageReference "HaplarUI" */;
-			productName = HaplarUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 161B789525D322A0007E21B6 /* Project object */;
 }
