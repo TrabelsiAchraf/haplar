@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HaplarUI",
+        "repositoryURL": "https://github.com/TrabelsiAchraf/HaplarUI",
+        "state": {
+          "branch": null,
+          "revision": "5a6ea76938c1f0b9f4cc55f3fb5af84656d2e4a6",
+          "version": "0.1.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
