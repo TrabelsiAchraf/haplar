@@ -8,40 +8,39 @@
 import SwiftUI
 
 struct HomeView: View {
+    
     @ObservedObject var viewModel: HomeViewModel
+    
     var body: some View {
         NavigationView {
             GeometryReader { geometry in
                 VStack(spacing: 0) {
                     HLDaysListView(viewModel: viewModel)
-                        .frame(width: geometry.size.width, height: geometry.size.height * 0.3)
+                        .frame(width: geometry.size.width,
+                               height: geometry.size.height * 0.3)
+                        .padding(.bottom)
                     if viewModel.isMedicineInSchedule {
                         List(viewModel.medicineSchedules) { item in
                             MedicinesScheduleView(medicinesSchedule: item)
                         }
                     } else {
                         EmptyMedicinesScheduleView()
-                            .frame(width: geometry.size.width, height: geometry.size.height * 0.8)
+                            .frame(width: geometry.size.width,
+                                   height: geometry.size.height * 0.8)
                             .background(LinearGradient(gradient: Gradient(colors: [Color.hlGray1, Color.hlGray2]), startPoint: .bottomTrailing, endPoint: .topLeading))
                     }
                 }
-                .onAppear {
-                    viewModel.retrieveWeekDays()
-                }
-                .navigationBarItems(
-                    trailing:
-                        HStack {
-                            Button(action: {
-                                print("Hi !")
-                            }) {
-                                Image(systemName: "bell.badge.fill")
-                                    .font(.largeTitle)
-                            }
-                            .foregroundColor(.hlPurple)
-                        }
-                )
-                .navigationBarTitle(Text("HOME_NAVBAR"))
             }
+            .onAppear {
+                viewModel.retrieveWeekDays()
+            }
+            .navigationBarTitle(Text("HOME_NAVBAR"))
+            .navigationBarItems(trailing: Button(action: {
+                print("Hi !")
+            }) {
+                Image(systemName: "bell.badge.fill")
+                    .foregroundColor(.hlPurple)
+            })
         }
     }
 }

@@ -8,28 +8,29 @@
 import SwiftUI
 
 struct HLDaysListView: View {
+    
     @ObservedObject var viewModel: HomeViewModel
     @State private var selectedDate: String = ""
+    
     var body: some View {
         VStack {
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                    ForEach(viewModel.days) { day in
+            HStack {
+                ForEach(viewModel.days) { day in
+                    GeometryReader { geo in
                         HLDayView(date: day.date, isSelected: day.isSelected)
+                            .frame(width: geo.size.width, height: geo.size.height)
                             .onTapGesture {
                                 selectedDate = day.date.dayFullFormat
                                 viewModel.selectDay(day.date)
                             }
                     }
                 }
-                .padding(.horizontal)
-                .padding(.top, 25)
             }
+            .padding(.horizontal)
             Text(selectedDate)
                 .font(.headline)
                 .fontWeight(.bold)
                 .foregroundColor(.accentColor)
-                .padding(.top, 10)
         }
         .onAppear {
             selectedDate = Date().dayFullFormat
